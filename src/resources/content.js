@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Systems Developer",
-  avatar: "/images/benchapuma1.jpg",
+  avatar: "/images/facebook8.jpg",
   email: "benchapuma77@gmail.com",
   location: "Africa/Blantyre", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Chichewa"], // optional: Leave the array empty if you don't want to display languages
@@ -58,12 +58,12 @@ const home = {
   headline: <>Building bridges between human and code</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
+    title: <>Recent project: <strong className="ml-4">Acme Dashboard</strong></>,
+    href: "https://nextjs-dashboard-plum-seven-2498o684ti.vercel.app/",
   },
   subline: (
     <>
-      I'm Ben, a Computer engineer at <Logo icon="/trademarks/wordmark-dark.svg" style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
+      I'm Ben, a Computer engineer at MUBAS, where I craft intuitive
       <br /> user experiences. After hours, I build my own projects.
     </>
   ),
@@ -182,19 +182,19 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Object-Oriented Programming",
+        description: <>Able to design and develop complex systems using multiple programming languages.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/mubaslabs.jpg",
+            src: "/images/projects/project-01/vscode-pic.png",
             alt: "Project image",
             width: 16,
             height: 9,
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/github-profile.png",
+            alt: "GitHub profile picture",
             width: 16,
             height: 9,
           },
@@ -202,12 +202,12 @@ const about = {
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        description: <>Building next gen apps with Next.js + ShadCN + TailwindCSS + PostgresSQL.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/vercel-profile.png",
+            alt: "Vercel profile picture",
             width: 16,
             height: 9,
           },
@@ -244,42 +244,42 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/horizontal-1.jpg",
+      src: "/images/gallery/facebook1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-2.jpg",
+      src: "/images/gallery/facebook5.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-3.jpg",
+      src: "/images/gallery/facebook3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/horizontal-4.jpg",
+      src: "/images/gallery/facebook4.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/vertical-1.jpg",
+      src: "/images/gallery/facebook10.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-2.jpg",
+      src: "/images/gallery/facebook6.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-3.jpg",
+      src: "/images/gallery/facebook7.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/vertical-4.jpg",
+      src: "/images/gallery/facebook8.jpg",
       alt: "image",
       orientation: "vertical",
     },

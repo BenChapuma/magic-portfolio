@@ -18,7 +18,7 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
+      I occasionally write about systems development, software engineering, and share thoughts on the intersection of
       creativity and engineering.
     </>
   ),
@@ -51,11 +51,11 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/image2.jpg",
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Building bridges between human and code</>,
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
@@ -90,9 +90,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Ben is a Blantyre-based computer engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Ben is a dedicated Electronics & Computer Engineering student,
+        driven by a profound passion for programming and developing innovative solutions.
+        Thriving at the intersection of hardware and software,
+        always eager to understand how things work and, more importantly,
+        how to build them better. 
+        Excited by opportunities to contribute to cutting-edge technology and solve real-world problems.
+        Let's connect if you're building the future!
       </>
     ),
   },
@@ -102,23 +106,25 @@ const about = {
     experiences: [
       {
         company: "Rydberg Starck",
-        timeframe: "2022 - Present",
+        timeframe: "Jul 2025 - Present",
         role: "Systems Development Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Developed a Human Resource Management System that manages employees
+            data, including list of all employees, registering a new employee, 
+            as well as editing and deleting an employee record.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Designed a quotation system that tracks customer quotations, records the total number of customers,
+            records total number of quotations, creates new quotations and employes live updates, as well as
+            the capacity to edit and delete a quotation among other functionalities.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/image3.png",
+            alt: " Rydberg Starck Limited",
             width: 16,
             height: 9,
           },
@@ -126,19 +132,38 @@ const about = {
       },
       {
         company: "MUBAS KAI LAB",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        timeframe: "Sept 2023 - May 2024",
+        role: "Data Analysis Assistant",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Conducted comprehensive field surveys, collecting physical data for
+             SMS Fraud Detection project.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Performed critical testing of Machine Learning and Artificial Intelligence tools, 
+            contributing to IntelSurv project deployment.
+          </>,
+          <>
+            Managed efficient data entry processes, maintaining high standards of data integrity.
+          </>,
+          <>
+            Facilitated seamless data translation between English and Chichewa, 
+            ensuring clear communication and accurancy
+          </>,
+          <>
+            Led enganging dissemination and awareness sessions,
+            effectively communicating information to diverse audiences.
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/kailab.jpg",
+            alt: " SMS Fraud Detection dissemination session",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -149,10 +174,6 @@ const about = {
       {
         name: "Malawi University of Business and Applied Sciences",
         description: <>Studied Electronics and Computer Engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
       },
     ],
   },
@@ -166,7 +187,7 @@ const about = {
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
+            src: "/images/projects/project-01/mubaslabs.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -199,7 +220,7 @@ const about = {
 const blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "Writing about Engineering and tech...",
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
   // All posts will be listed on the /blog route

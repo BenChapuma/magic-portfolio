@@ -59,7 +59,7 @@ const home = {
   featured: {
     display: true,
     title: <>Recent project: <strong className="ml-4">Acme Dashboard</strong></>,
-    href: "https://nextjs-dashboard-plum-seven-2498o684ti.vercel.app/",
+    href: "https://nextjs-dashboard-ben-chapuma-s-projects.vercel.app/",
   },
   subline: (
     <>

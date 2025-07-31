@@ -140,10 +140,6 @@ const about = {
              SMS Fraud Detection project.
           </>,
           <>
-            Performed critical testing of Machine Learning and Artificial Intelligence tools, 
-            contributing to IntelSurv project deployment.
-          </>,
-          <>
             Managed efficient data entry processes, maintaining high standards of data integrity.
           </>,
           <>
@@ -161,7 +157,7 @@ const about = {
             src: "/images/projects/project-01/kailab.jpg",
             alt: " SMS Fraud Detection dissemination session",
             width: 16,
-            height: 9,
+            height: 9, 
           },
         ],
       },
@@ -173,7 +169,7 @@ const about = {
     institutions: [
       {
         name: "Malawi University of Business and Applied Sciences",
-        description: <>Studied Electronics and Computer Engineering.</>,
+        description: <>Pursuing an Honour's Degree in Electronics and Computer Engineering.</>,
       },
     ],
   },
@@ -183,34 +179,69 @@ const about = {
     skills: [
       {
         title: "Object-Oriented Programming",
-        description: <>Able to design and develop complex systems using multiple programming languages.</>,
+        description: <>Creating modular, reusable, and scalable software using OOP principles.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
+        title: "Software Engineering",
+        description: <> Designing, developing, and maintaining robust software solutions.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
-            src: "/images/projects/project-01/vscode-pic.png",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/github-profile.png",
-            alt: "GitHub profile picture",
-            width: 16,
-            height: 9,
-          },
+
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + ShadCN + TailwindCSS + PostgresSQL.</>,
+        title: "Project Management",
+        description: <>Organizing and leading projects to successful completion, on time and within budget.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
-          {
+
+        ],
+      },
+      {
+        title: "Data Analysis",
+        description: <>Interpreting complex data to identify trends and inform decision-making.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+
+        ],
+      },
+      {
+        title: "Research Skills",
+        description: <>Gathering, evaluating, and synthesizing information to solve problems effectively.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+
+        ],
+      },
+      {
+        title: "English to Chichewa Translation",
+        description: <>Accurately translating content between English and Chichewa languages.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+
+        ],
+      },
+      {
+        title: "Communication Skills",
+        description: <>Clearly conveying information and ideas to diverse audiences.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+
+        ],
+      },
+      {
+        title: "Microsoft Office",
+        description: <>Proficient in Word, Excel, PowerPoint, and other Office applications.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [
+        /*  {
             src: "/images/projects/project-01/vercel-profile.png",
             alt: "Vercel profile picture",
             width: 16,
             height: 9,
-          },
+          }, */
         ],
       },
     ],

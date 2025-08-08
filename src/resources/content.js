@@ -185,7 +185,7 @@ const about = {
       },
       {
         title: "Software Engineering",
-        description: <> Designing, developing, and maintaining robust software solutions.</>,
+        description: <> Designing, Developing, and Maintaining robust software solutions.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
 

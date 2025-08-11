@@ -90,7 +90,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Ben is a dedicated Electronics & Computer Engineering student,
+        Dedicated Electronics & Computer Engineering student,
         driven by a profound passion for programming and developing innovative solutions.
         Thriving at the intersection of hardware and software,
         always eager to understand how things work and, more importantly,
@@ -178,38 +178,38 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Object-Oriented Programming",
-        description: <>Creating modular, reusable, and scalable software using OOP principles.</>,
+        title: "C++, Python, JavaScript, NodeJS, NextJS, HTML, CSS, Typescript.",
+        description: <>Creating modular, reusable, and scalable software.</>,
         // optional: leave the array empty if you don't want to display images
         images: [],
       },
       {
-        title: "Software Engineering",
-        description: <> Designing, Developing, and Maintaining robust software solutions.</>,
+        title: "Advanced Excel formulas and functions",
+        description: <>Data cleaning, inspection, and transformation.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
 
         ],
       },
       {
-        title: "Project Management",
-        description: <>Organizing and leading projects to successful completion, on time and within budget.</>,
+        title: "PostgreSQL database",
+        description: <>Data management, integrity, and security.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
 
         ],
       },
       {
-        title: "Data Analysis",
-        description: <>Interpreting complex data to identify trends and inform decision-making.</>,
+        title: "SPSS tool",
+        description: <>Data analysis to inform decision making.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
 
         ],
       },
       {
-        title: "Research Skills",
-        description: <>Gathering, evaluating, and synthesizing information to solve problems effectively.</>,
+        title: "Google forms and Excel",
+        description: <>Data collection and storage to aid inferential statistics.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
 
@@ -217,24 +217,7 @@ const about = {
       },
       {
         title: "English to Chichewa Translation",
-        description: <>Accurately translating content between English and Chichewa languages.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-
-        ],
-      },
-      {
-        title: "Communication Skills",
-        description: <>Clearly conveying information and ideas to diverse audiences.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-
-        ],
-      },
-      {
-        title: "Microsoft Office",
-        description: <>Proficient in Word, Excel, PowerPoint, and other Office applications.</>,
-        // optional: leave the array empty if you don't want to display images
+        description: <>Content delivery to local masses.</>,
         images: [
         /*  {
             src: "/images/projects/project-01/vercel-profile.png",

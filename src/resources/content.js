@@ -7,7 +7,7 @@ const person = {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Systems Developer",
-  avatar: "/images/facebook8.jpg",
+  avatar: "/images/current-profile.jpg",
   email: "benchapuma77@gmail.com",
   location: "Africa/Blantyre", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Chichewa"], // optional: Leave the array empty if you don't want to display languages
@@ -275,42 +275,42 @@ const gallery = {
   // These are placeholder images, replace with your own
   images: [
     {
-      src: "/images/gallery/facebook1.jpg",
+      src: "/images/gallery/drone-pic1.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/facebook5.jpg",
+      src: "/images/gallery/drone-pic2.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/facebook3.jpg",
+      src: "/images/gallery/drone-pic3.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/facebook4.jpg",
+      src: "/images/gallery/drone-pic4.jpg",
       alt: "image",
       orientation: "horizontal",
     },
     {
-      src: "/images/gallery/facebook10.jpg",
+      src: "/images/gallery/drone-pic5.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/facebook6.jpg",
+      src: "/images/gallery/drone-pic6.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/facebook7.jpg",
+      src: "/images/gallery/drone-pic7.jpg",
       alt: "image",
       orientation: "vertical",
     },
     {
-      src: "/images/gallery/facebook8.jpg",
+      src: "/images/gallery/drone-pic8.jpg",
       alt: "image",
       orientation: "vertical",
     },
